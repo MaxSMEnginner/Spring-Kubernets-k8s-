@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: spring-config
+data:
+  PROFILE: "pro"
+  DATASOURCE_URL: "jdbc:postgresql://postgres:5432/spring"
