@@ -43,7 +43,7 @@ kubectl get pods -n kube-system | grep metrics-server
 
 #### Deployment `k8s-deployment.yaml`
 
-- **Imagen**: `davinchijv/spring-k8s:1.0`
+- **Imagen**: `engmaxsm/spring-k8s:1.0`
 - **Puerto**: 8080
 - **Recursos**: CPU: 100m-500m, Memoria: 128Mi-200Mi
 - **Réplicas iniciales**: 1
